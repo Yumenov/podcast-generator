@@ -1,11 +1,11 @@
-name: "Podcast Generator"
+name: "Podcast Generator Yumenov"
 author: "Valerie V"
 description: "Generates a feed for a podcast from a YAML file"
 runs: 
   using: "docker"
   image: "Dockerfile"
 branding:
-  icons: "git-branch"
+  icons: "cast"
   color: "red"
 inputs:
   email:
